@@ -35310,6 +35310,13 @@ a {
   }
 }
 
+@media (min-width: 992px) {
+  .navbar-nav .megamenu-cols-4 {
+    -moz-columns: 4;
+         columns: 4;
+  }
+}
+
 @media (max-width: 991.98px) {
   .navbar-content-inner {
     max-height: 70vh;
@@ -35950,3 +35957,8 @@ article img {
           border-block-start: 0 #2e2f45;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+.bg-lite-blue {background-color: #0dcaf0;}
