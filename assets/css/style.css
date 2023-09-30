@@ -114,7 +114,7 @@ Colors
   --gen-dark-border-subtle: #adb5bd;
   --gen-white-rgb: 255, 255, 255;
   --gen-black-rgb: 0, 0, 0;
-  --gen-font-sans-serif: "Space Grotesk", system-ui, -apple-system, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --gen-font-sans-serif: 'Roboto', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --gen-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --gen-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --gen-body-font-family: var(--gen-font-sans-serif);
@@ -35425,7 +35425,7 @@ a {
   inset: 0;
   width: 100%;
   height: 60%;
-  background: url(../images/bg/1.jpg) no-repeat center center/cover;
+  background: url(../images/bg/1.webp) no-repeat center center/cover;
   z-index: -1;
 }
 @media (min-width: 992px) {
@@ -35961,4 +35961,7 @@ article img {
 
 
 
-.bg-lite-blue {background-color: #0dcaf0;}
+.bg-lite-blue {background-color: var(--gen-blue)}
+.bg-magenta {background-color: magenta;}
+.bg-white {background-color: whitesmoke}
+.bg-lite-grey {background-color: grey}
